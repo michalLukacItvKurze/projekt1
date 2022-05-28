@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .header img{
+         width: 100%;
+         padding-bottom: 50px;
+        }
+        body {
+           display: flex;
+           align-items: center;
+           flex-direction: column;
+           background: linear-gradient(
+               0deg,
+               rgb(97,98,99)0%,
+               rgba(0,0,0,0)100%
+           );
+        }
+        canvas{
+           box-shadow: black 20px 10px 50px;
+           margin-bottom: 80px;
+        }
+               
+       
+    </style>
+    <title>WORMS</title>
+</head>
+<body>
+    <div class="header">
+        <img src="img/header.png" alt="worms">
+    </div>
+    <canvas id="game">
+    </canvas>
+    <script src="script.js"></script>
+    
+</body>
+</html>
